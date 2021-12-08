@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor:grab;
+    /* height: 10vh; */
+    background: fixed;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.bg{
+    background: rgb(19, 19, 110);
+    /* position: fixed;
+width: 100%; */
+}
+
+.navlist{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    font-family: 'MonteCarlo', cursive;
+    
+}
+
+.navlist li{
+    list-style: none;
+    padding: 8px;
+}
+
+.navlist li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navlist li a:hover{
+    color: cadetblue;
+}
+
+.rightnav{
+    width: 35%;
+    align-items: center;
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+#Search{
+    padding: 5px 80px;
+    margin: 2px;
+    border-block-color: blueviolet;
+    border-width: 2px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+
+.btm{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    cursor: grab;
+    border-radius: 30px;
+    padding: 10px;
+}
+.btm:hover{
+    color: rgb(184, 173, 233);
+}
+
+.cc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+.social li{
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.soc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.social img{
+    width: 30px;
+}
+
+/* .cone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 30px;
+    
+} */
+.bgf{
+    background-color: rgb(19, 19, 110);
+}
